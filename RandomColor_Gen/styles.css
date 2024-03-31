@@ -1,0 +1,27 @@
+.container{
+    border: 12px solid black;
+    border-style:double;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 204, 204);
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    
+}
+
+button{
+    font-size: x-large;
+}
+
+p{
+    margin: 0px ;
+}
