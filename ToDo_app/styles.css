@@ -1,0 +1,70 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(246, 246, 246);
+    color: rgb(0, 0, 0);
+}
+
+.inp{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: rgb(232, 224, 224);
+    height: 70px;
+    width: 500px;
+    font-size: xx-large;
+    
+}
+
+.inputs{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.btn{
+    margin-left: 10px;
+    border: 2px solid rgb(9, 9, 9);
+    width: 90px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50;
+    font-size: xxx-large;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(5, 115, 29);
+    color: rgb(10, 10, 10);
+}
+
+
+.myUL{
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25em;
+    border: 2px solid rgb(13, 13, 13);
+    width: 27.5em;
+    
+}
+
+
+.text ul li i{
+    /* /* margin-left: 120px; */
+    cursor: pointer;
+    position: absolute;
+    right:33%;
+}
+
+.text ul li i:hover{
+    color: red;
+}
