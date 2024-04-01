@@ -13,139 +13,229 @@ const ins5 = new Audio("./sounds/pop.wav");
 const ins6 = new Audio("./sounds/flute.wav");
 const ins7 = new Audio("./sounds/tabla.wav");
 
+function playAudio(audio) {
+  if (!audio.paused) {
+    audio.pause();
+  }
+  audio.currentTime = 0;
+  audio.play();
+}
 
 
 
-const bt1 = document.querySelectorAll("#btn1");
 
-bt1.forEach((button) => {
+document.querySelectorAll("#btn1").forEach((button) => {
   button.addEventListener("click", () => {
-    audio1.play();
+    playAudio(audio1);
   });
 });
 
-const bt2 = document.querySelectorAll("#btn2");
-
-bt2.forEach((button) => {
+document.querySelectorAll("#btn2").forEach((button) => {
   button.addEventListener("click", () => {
-    audio2.play();
+    playAudio(audio2);
   });
 });
 
-const bt3 = document.querySelectorAll("#btn3");
-
-bt3.forEach((button) => {
+document.querySelectorAll("#btn3").forEach((button) => {
   button.addEventListener("click", () => {
-    audio3.play();
+    playAudio(audio3);
   });
 });
 
-const bt4 = document.querySelectorAll("#btn4");
-
-bt4.forEach((button) => {
+document.querySelectorAll("#btn4").forEach((button) => {
   button.addEventListener("click", () => {
-    audio4.play();
+    playAudio(audio4);
   });
 });
 
-const bt5 = document.querySelectorAll("#btn5");
-
-bt5.forEach((button) => {
+document.querySelectorAll("#btn5").forEach((button) => {
   button.addEventListener("click", () => {
-    audio5.play();
+    playAudio(audio5);
   });
 });
 
-const bt6 = document.querySelectorAll("#btn6");
-
-bt6.forEach((button) => {
+document.querySelectorAll("#btn6").forEach((button) => {
   button.addEventListener("click", () => {
-    audio6.play();
+    playAudio(audio6);
   });
 });
 
-
-const bt7 = document.querySelectorAll("#in1");
-
-bt7.forEach((button) => {
+document.querySelectorAll("#in1").forEach((button) => {
   button.addEventListener("click", () => {
-    ins1.play();
+    playAudio(ins1);
   });
 });
 
-
-const bt8 = document.querySelectorAll("#in2");
-
-bt8.forEach((button) => {
+document.querySelectorAll("#in2").forEach((button) => {
   button.addEventListener("click", () => {
-    ins2.play();
+    playAudio(ins2);
   });
 });
 
-
-
-const bt9 = document.querySelectorAll("#in3");
-
-bt9.forEach((button) => {
+document.querySelectorAll("#in3").forEach((button) => {
   button.addEventListener("click", () => {
-    ins3.play();
+    playAudio(ins3);
   });
 });
 
-
-
-
-const bt10 = document.querySelectorAll("#in4");
-
-bt10.forEach((button) => {
+document.querySelectorAll("#in4").forEach((button) => {
   button.addEventListener("click", () => {
-    ins4.play();
+    playAudio(ins4);
   });
 });
 
-
-
-
-const bt11 = document.querySelectorAll("#in4");
-
-bt11.forEach((button) => {
+document.querySelectorAll("#in5").forEach((button) => {
   button.addEventListener("click", () => {
-    ins4.play();
+    playAudio(ins5);
+  });
+});
+
+document.querySelectorAll("#in6").forEach((button) => {
+  button.addEventListener("click", () => {
+    playAudio(ins6);
+  });
+});
+
+document.querySelectorAll("#in7").forEach((button) => {
+  button.addEventListener("click", () => {
+    playAudio(ins7);
   });
 });
 
 
 
 
+// const bt1 = document.querySelectorAll("#btn1");
+
+// bt1.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio1.play();
+//     playAudio(audio1);
+//   });
+// });
+
+// const bt2 = document.querySelectorAll("#btn2");
+
+// bt2.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio2.play();
+//   });
+// });
+
+// const bt3 = document.querySelectorAll("#btn3");
+
+// bt3.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio3.play();
+//   });
+// });
+
+// const bt4 = document.querySelectorAll("#btn4");
+
+// bt4.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio4.play();
+//   });
+// });
+
+// const bt5 = document.querySelectorAll("#btn5");
+
+// bt5.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio5.play();
+//   });
+// });
+
+// const bt6 = document.querySelectorAll("#btn6");
+
+// bt6.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     audio6.play();
+//   });
+// });
 
 
-const bt12 = document.querySelectorAll("#in5");
+// const bt7 = document.querySelectorAll("#in1");
 
-bt12.forEach((button) => {
-  button.addEventListener("click", () => {
-    ins5.play();
-  });
-});
+// bt7.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins1.play();
+//   });
+// });
 
 
+// const bt8 = document.querySelectorAll("#in2");
 
-const bt13 = document.querySelectorAll("#in6");
-
-bt13.forEach((button) => {
-  button.addEventListener("click", () => {
-    ins6.play();
-  });
-});
-
+// bt8.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins2.play();
+//   });
+// });
 
 
 
-const bt14 = document.querySelectorAll("#in7");
+// const bt9 = document.querySelectorAll("#in3");
 
-bt14.forEach((button) => {
-  button.addEventListener("click", () => {
-    ins7.play();
-  });
-});
+// bt9.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins3.play();
+//   });
+// });
+
+
+
+
+// const bt10 = document.querySelectorAll("#in4");
+
+// bt10.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins4.play();
+//   });
+// });
+
+
+
+
+// const bt11 = document.querySelectorAll("#in4");
+
+// bt11.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins4.play();
+//   });
+// });
+
+
+
+
+
+
+// const bt12 = document.querySelectorAll("#in5");
+
+// bt12.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins5.play();
+//   });
+// });
+
+
+
+// const bt13 = document.querySelectorAll("#in6");
+
+// bt13.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins6.play();
+//   });
+// });
+
+
+
+
+// const bt14 = document.querySelectorAll("#in7");
+
+// bt14.forEach((button) => {
+//   button.addEventListener("click", () => {
+//     ins7.play();
+//   });
+// });
 
 
