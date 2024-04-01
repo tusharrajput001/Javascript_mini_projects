@@ -1,0 +1,46 @@
+.parent-container{
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 40px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    font-size: 2rem; /* Adjust the font size as needed */
+    opacity: 0.6; /* Adjust the opacity as needed */
+}
+
+.main-container{
+    width: 100%; /* Use full width */
+    padding: 0 20px; /* Add some padding */
+}
+
+h3{
+    font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+.opts h3 {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px; /* Reduce border radius */
+    margin: 10px 0; /* Adjust margin */
+    padding: 10px 20px; /* Adjust padding */
+}
+
+.opts h3:hover{
+    background-color: rgb(66, 233, 48);
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .parent-container {
+        margin: 10px auto;
+    }
+}
