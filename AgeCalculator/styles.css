@@ -1,0 +1,21 @@
+body {
+    background-color: orange;
+    
+}
+h1{
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+}
+.container{
+    background-color: white;
+    width:50%;
+    padding:10px;
+    border-radius:10px;
+    font-size:larger;
+    font-weight:600;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
