@@ -1,0 +1,16 @@
+@media (min-width: 576px) {
+   
+}
+
+@media (min-width: 992px) {
+    
+}
+
+#video{
+    width: 75%;
+    height: 28vw;
+    border-radius: 20px;
+    margin: auto;
+    display: flex;
+    object-fit: fill;
+}
