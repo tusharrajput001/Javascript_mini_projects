@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(5, 4, 4);
+    color: rgb(48, 201, 14);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 2%;
+}
+
+.mainContent{
+    text-align: center;
+    margin: 5%;
+}
+
+#qrcode{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 2px solid white;
+}
+
+.GenNew{
+    padding: 1%; 
+    margin: auto;
+    display: flex;
+    border-radius: 50px;
+}
+#genother{
+    margin: 5%;
+}
