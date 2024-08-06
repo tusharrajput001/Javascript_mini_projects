@@ -1,0 +1,33 @@
+.containerBase{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    width: 50%;
+    height: auto;
+    min-height: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+.containerBase input,button{
+    font-size: x-large;
+}
+
+.List{
+    text-align: start;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#unordList li {
+    margin: 20px;
+    display:flex;
+    justify-content: space-between;
+}
