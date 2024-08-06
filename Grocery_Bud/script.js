@@ -10,7 +10,7 @@ function AddItem() {
 
     // Create the delete button
     const DelBtn = document.createElement("button");
-    DelBtn.innerText = "Remove";
+    DelBtn.innerText = "Del";
     DelBtn.onclick = function () {
       RemoveItem(ItemName);
     };
@@ -34,7 +34,7 @@ function LoadItems() {
 
     // Create the delete button
     const DelBtn = document.createElement("button");
-    DelBtn.innerText = "Remove";
+    DelBtn.innerText = "Del";
     DelBtn.onclick = function () {
       RemoveItem(item);
     };
