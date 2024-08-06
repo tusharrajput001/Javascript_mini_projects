@@ -1,1 +1,2 @@
-To Practice Javascript i am creating a whole bunch of projects ..... 
+Grocery App -> https://groceryremb.netlify.app/
+QR CODE GENERATOR -> https://qrcodegeneratoorr.netlify.app/
